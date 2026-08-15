@@ -1,0 +1,19 @@
+# data & artifacts (never commit patient data: WSIs, features, QC overlays)
+*.svs
+*.ndpi
+*.h5
+*.npy
+*_check.png
+data/
+
+# logs
+*.log
+.pytest_cache/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store

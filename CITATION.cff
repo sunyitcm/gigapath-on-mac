@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "GigaPath on Mac: running a 1B-parameter pathology foundation model without an NVIDIA GPU"
+type: software
+url: "https://github.com/sunyitcm/gigapath-on-mac"
+date-released: 2026-08-15
+license: MIT

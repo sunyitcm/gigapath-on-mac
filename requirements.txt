@@ -1,0 +1,19 @@
+# Core (install torch first via: python -m pip install torch torchvision torchaudio)
+timm>=1.0.3
+huggingface_hub>=0.24
+einops
+
+# WSI I/O (openslide-bin bundles the dylib; avoids macOS SIP/DYLD issues)
+openslide-python
+openslide-bin
+
+# Image / science stack
+numpy
+pillow
+opencv-python-headless
+scikit-image
+scikit-learn
+h5py
+pandas
+tqdm
+matplotlib
