@@ -19,3 +19,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+THIRD-PARTY NOTICES
+
+This repository provides tools for running the Prov-GigaPath pretrained model
+on macOS. The Prov-GigaPath model weights are NOT included and must be
+downloaded separately from HuggingFace Hub (prov-gigapath/prov-gigapath).
+
+Those model weights are subject to a research-use-only license and are
+NOT intended for clinical use. Users must independently agree to the
+HuggingFace gated model terms before downloading.
+
+Original repository: https://github.com/prov-gigapath/prov-gigapath
+Paper: Xu et al., Nature 2024, DOI: 10.1038/s41586-024-07441-w
