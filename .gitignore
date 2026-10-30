@@ -17,3 +17,9 @@ __pycache__/
 
 # os
 .DS_Store
+
+# Local release attachments (never commit archives)
+/dist/
+# Explicitly version the public scalar snapshot only
+!studies/wsi-mps-cuda/data/
+!studies/wsi-mps-cuda/data/**

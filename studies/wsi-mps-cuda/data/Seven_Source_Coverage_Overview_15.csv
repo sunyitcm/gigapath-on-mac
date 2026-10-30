@@ -1,0 +1,16 @@
+WSI,tile_model,tile_sources,fixed_means,learned_route,F,M5F,M3F,E,P,M5E,M3E,missing_learned_cells
+TCGA-23-1028,gigapath,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen GigaPath,EXEC x4,EXEC x4,ALIAS x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-23-1028,virchow2,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Out of study scope,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0
+TCGA-23-1028,titan_conchv1_5,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen TITAN,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-B5-A0K3,gigapath,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen GigaPath,EXEC x4,EXEC x4,ALIAS x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-B5-A0K3,virchow2,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Out of study scope,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0
+TCGA-B5-A0K3,titan_conchv1_5,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen TITAN,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-CD-A4MG,gigapath,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen GigaPath,EXEC x4,EXEC x4,ALIAS x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-CD-A4MG,virchow2,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Out of study scope,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0
+TCGA-CD-A4MG,titan_conchv1_5,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen TITAN,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-DM-A1HA,gigapath,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen GigaPath,EXEC x4,EXEC x4,ALIAS x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-DM-A1HA,virchow2,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Out of study scope,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0
+TCGA-DM-A1HA,titan_conchv1_5,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen TITAN,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-C8-A26W,gigapath,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen GigaPath,EXEC x4,EXEC x4,ALIAS x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0
+TCGA-C8-A26W,virchow2,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Out of study scope,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0
+TCGA-C8-A26W,titan_conchv1_5,F/M5F/M3F/E/P/M5E/M3E: 7/7,7/7,Frozen TITAN,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,EXEC x4,0

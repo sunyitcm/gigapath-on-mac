@@ -1,0 +1,23 @@
+[
+  {
+    "WSI": "TCGA-C8-A26W",
+    "model": "gigapath",
+    "candidate": "M3F",
+    "reference": "M5F",
+    "status": "NO_EXISTING_METRIC_IN_THIS_DIRECTION"
+  },
+  {
+    "WSI": "TCGA-C8-A26W",
+    "model": "virchow2",
+    "candidate": "M3F",
+    "reference": "M5F",
+    "status": "NO_EXISTING_METRIC_IN_THIS_DIRECTION"
+  },
+  {
+    "WSI": "TCGA-C8-A26W",
+    "model": "titan_conchv1_5",
+    "candidate": "M3F",
+    "reference": "M5F",
+    "status": "NO_EXISTING_METRIC_IN_THIS_DIRECTION"
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "model": "GigaPath",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "GigaPath",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "GigaPath",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M3 Ultra",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": "NOT_PREVIOUSLY_RECORDED",
+    "global_cosine": 1.0,
+    "min_tile_cosine": 1.0
+  },
+  {
+    "model": "GigaPath",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "GigaPath",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "GigaPath",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "M5 Max",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  },
+  {
+    "model": "GigaPath",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "GigaPath",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "GigaPath",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      14344,
+      1536
+    ],
+    "compared_shape": [
+      14344,
+      1536
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "Virchow2",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      18705,
+      2560
+    ],
+    "compared_shape": [
+      18705,
+      2560
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999998
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 2,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 1,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  },
+  {
+    "model": "CONCH v1.5",
+    "platform": "RTX 5090 CUDA",
+    "WSI": "TCGA-C8-A26W",
+    "precision": "fp32",
+    "batch": 8,
+    "warmup_complete_batches": 10,
+    "reference_repeat": 2,
+    "compared_repeat": 3,
+    "coords_row_equal": true,
+    "features_elementwise_equal": true,
+    "feature_mismatch_elements": 0,
+    "reference_shape": [
+      3629,
+      768
+    ],
+    "compared_shape": [
+      3629,
+      768
+    ],
+    "max_abs": 0.0,
+    "relative_L2": 0.0,
+    "global_cosine": 1.0,
+    "min_tile_cosine": 0.9999999999999999
+  }
+]
