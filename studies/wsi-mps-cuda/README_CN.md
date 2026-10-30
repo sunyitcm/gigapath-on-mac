@@ -11,4 +11,6 @@
 
 本包定位为 **Results and Methods Snapshot（研究结果与方法摘要包）**，提供结果、必要方法、三幅图和支撑标量；不是完整论文或从WSI开始的端到端复现包。结论限于所述切片、会话及合同，不代表临床等效、普遍确定性或硬件因果机制。
 
-[早期v1.0探索](https://github.com/sunyitcm/gigapath-on-mac/releases/tag/v1.0)采用不同计量合同。源数据、模型权重及第三方实现不在本包中分发。
+[早期v1.0探索](https://github.com/sunyitcm/gigapath-on-mac/releases/tag/v1.0)采用不同计量合同。源数据、模型权重及完整第三方模型实现不在本包中分发。
+
+[代码与方法补充 v1.1.0](reproducibility/README_CN.md)：脚本、源码组件与摘录、必要配置、记录环境及使用/许可说明。

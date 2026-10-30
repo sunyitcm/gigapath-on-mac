@@ -16,3 +16,5 @@ This **Results and Methods Snapshot** contains a bounded results report, methods
 [Results and figures](studies/wsi-mps-cuda/RESULTS_EN.md) · [Methods](studies/wsi-mps-cuda/METHODS_AND_MEASUREMENT_CONTRACTS_EN.md) · [Scalar tables](studies/wsi-mps-cuda/DATA_INDEX.md) · [Primary references](studies/wsi-mps-cuda/REFERENCES.md) · [Rights](studies/wsi-mps-cuda/RIGHTS_AND_SCOPE.md) · [Third-party notices](studies/wsi-mps-cuda/THIRD_PARTY_NOTICES.md)
 
 The retained scripts and [v1.0 source](https://github.com/sunyitcm/gigapath-on-mac/tree/v1.0) belong to the early GigaPath-on-Mac exploration. Their synthetic/101-tile contracts and NVIDIA estimates differ from this study; the old publication date applies only to the content then released.
+
+[Code and Methods Supplement v1.1.0](studies/wsi-mps-cuda/reproducibility/README.md): scripts, source components/excerpts, configurations, recorded environments, usage and licenses.

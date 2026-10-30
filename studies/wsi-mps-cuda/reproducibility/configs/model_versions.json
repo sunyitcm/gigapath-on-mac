@@ -1,0 +1,17 @@
+{
+  "gigapath": {
+    "repo": "prov-gigapath/prov-gigapath",
+    "revision": "64f9e26c15019f2d4f6d9113c6822f88bb16b01b",
+    "out_dim": 1536
+  },
+  "virchow2": {
+    "repo": "paige-ai/Virchow2",
+    "revision": "3158645804b69e3f3bc4439d4116edddf0840a72",
+    "out_dim": 2560
+  },
+  "titan_conchv1_5": {
+    "repo": "MahmoodLab/TITAN",
+    "revision": "dac6773d9961cfc75503440676ff157a2c6e8d2e",
+    "out_dim": 768
+  }
+}

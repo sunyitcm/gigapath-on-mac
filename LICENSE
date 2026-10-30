@@ -30,3 +30,10 @@ implementations, source data or all research materials. See
 studies/wsi-mps-cuda/RIGHTS_AND_SCOPE.md and
 studies/wsi-mps-cuda/THIRD_PARTY_NOTICES.md for research-content scope and the
 official Prov-GigaPath, Virchow2, CONCH v1.5, TITAN and TCGA/GDC sources.
+
+For studies/wsi-mps-cuda/reproducibility/, project-specific software follows
+this MIT scope. Attributed upstream example/interface portions retain the
+terms and notices identified in
+studies/wsi-mps-cuda/reproducibility/docs/LICENSE_SCOPE.md,
+including the included Apache-2.0 text for the GigaPath example adaptation.
+No external model or research-content blanket license is granted here.

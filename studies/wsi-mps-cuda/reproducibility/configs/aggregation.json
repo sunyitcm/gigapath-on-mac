@@ -1,0 +1,76 @@
+{
+  "GigaPath_model": {
+    "model_arch": "gigapath_slide_enc12l768d",
+    "in_chans": 1536,
+    "embed_dim": 768,
+    "depth": 12,
+    "mlp_ratio": 4,
+    "slide_ngrids": 1000,
+    "tile_size": 256,
+    "max_wsi_size": 262144,
+    "global_pool": false,
+    "output": "final encoder layer -> LayerNorm -> CLS [1,768]; all_layer_embed=False; no extra normalization/classifier",
+    "eval": true,
+    "requires_grad": false,
+    "no_grad": true,
+    "dropout": 0.25,
+    "drop_path_rate": 0.1,
+    "attention_dropout": 0.0,
+    "LongNet_encoder_attention_heads": 16,
+    "dilated_ratio": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "segment_length": [
+      1024,
+      5792,
+      32768,
+      185363,
+      1048576
+    ],
+    "nonpersistent_pos_embed_bytes": 3072003072,
+    "configuration_source": "upstream/gigapath/slide_encoder.py and torchscale/model/LongNetConfig.py; HF config.json configures the TILE encoder, not this slide encoder"
+  },
+  "GigaPath_seed": 0,
+  "GigaPath_threads": 8,
+  "MPS_GigaPath_threads": 8,
+  "seed_TITAN": 0,
+  "TITAN_threads": 4,
+  "family": "seven-source fixed aggregation",
+  "precision": "FP32 parameters/input; autocast off for frozen comparison routes",
+  "GigaPath_attention": "compatible blocked FP32, query64/key128, original dilation/padding/scattering retained; not native flash-kernel equivalence",
+  "TITAN_route": "native encode_slide_from_patch_features, no_proj, geometry 1042 px",
+  "source_roles": {
+    "F": "saved CUDA FP32",
+    "M5F": "M5 FP32",
+    "M3F": "M3 FP32",
+    "E": "CUDA explicit FP16",
+    "P": "CUDA AMP FP16",
+    "M5E": "historical M5 explicit FP16",
+    "M3E": "historical M3 explicit FP16"
+  },
+  "axes": [
+    "change complete H5 source, fixed learned route",
+    "same complete H5 + geometry, change MPS/CUDA backend"
+  ],
+  "repeats": "two calls per physical input within one model loading lifecycle",
+  "counts": {
+    "reference_cells": 280,
+    "physical_vectors": 260,
+    "alias_cells": 20,
+    "repeat_rows": 140,
+    "unique_repeat_pairs": 130,
+    "backend_rows": 70,
+    "unique_backend_pairs": 65,
+    "fixed_means": 105,
+    "source_comparison_rows": 180,
+    "parallel_rows": 135
+  },
+  "alias_rule": "GigaPath M3F aliases M5F only where complete feature/coordinate equality was previously established; not another forward",
+  "Virchow2_learned": "OUT_OF_SCOPE",
+  "Mac_AMP_learned": "NOT_RUN_OUT_OF_SCOPE",
+  "execution_enabled": false
+}

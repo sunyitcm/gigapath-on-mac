@@ -1,0 +1,16 @@
+{
+  "execution_enabled": false,
+  "data_root": "<DATA_ROOT>",
+  "output_root": "<NEW_OUTPUT_ROOT>",
+  "local_model_cache": "<APPROVED_LOCAL_MODEL_CACHE>",
+  "upstream_source_root": "<LICENSED_PINNED_UPSTREAM>",
+  "inputs": "WSI identifiers and sources: docs/WSI_INPUTS.md at repository root",
+  "offline_environment": {
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "PYTORCH_ENABLE_MPS_FALLBACK": "0",
+    "PYTORCH_MPS_FAST_MATH": "0",
+    "NVIDIA_TF32_OVERRIDE": "0"
+  },
+  "no_implicit_download": true
+}

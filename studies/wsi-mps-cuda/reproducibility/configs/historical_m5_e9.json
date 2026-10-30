@@ -1,0 +1,33 @@
+{
+  "family": "Historical M5 formal sweep",
+  "source_commit": "c63e612245898f7bff788fec27ffc48e0b3e1a75",
+  "constants": {
+    "MASK_STRIDE": 16,
+    "TISSUE_FRAC": 0.25,
+    "PEN_FILTER": true,
+    "TARGET_MPP": 0.5,
+    "BATCH_LIST": [
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "DTYPE_LIST": [
+      "fp16",
+      "fp32"
+    ],
+    "N_REPEAT": 3,
+    "WARMUP_ROUNDS": 1,
+    "COOLDOWN_SEC": 60,
+    "SLEEP_BETWEEN": 30,
+    "H5_FEATURES_DTYPE": "float32",
+    "SEED": 20260826
+  },
+  "warmup": "one discarded FULL pass, not ten batches",
+  "binding": "M5 formal 540 batch-level source chain; not immutable per-worker attestation",
+  "encode_boundary": "M5 E9 timed model+Original postprocess through MPS end synchronization; M3 historic exact boundary not re-established",
+  "final_H5_producer_batch_repeat": "UNKNOWN_NOT_BOUND",
+  "execution_enabled": false
+}

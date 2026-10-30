@@ -13,4 +13,6 @@ The study examines numerical consistency and measured resource costs of a fixed 
 
 This **Results and Methods Snapshot** contains a bounded results report, methods, three figures and supporting scalar tables. It is not the complete paper or a full from-WSI reproduction package. Observations are limited to the stated WSIs, sessions and contracts; they do not establish clinical equivalence, universal determinism or hardware causes.
 
-The earlier [v1.0 exploration](https://github.com/sunyitcm/gigapath-on-mac/releases/tag/v1.0) uses different measurement contracts. Source data, model weights and third-party implementations are not distributed here.
+The earlier [v1.0 exploration](https://github.com/sunyitcm/gigapath-on-mac/releases/tag/v1.0) uses different measurement contracts. Source data, model weights and full third-party model implementations are not distributed here.
+
+[Code and Methods Supplement v1.1.0](reproducibility/README.md): scripts, source components/excerpts, configurations, recorded environments, usage and licenses.

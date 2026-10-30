@@ -1,0 +1,21 @@
+# run_sweep.py —— 用法：python run_sweep.py MACHINE PANEL_DIR
+import subprocess, sys, time, os
+import config as C
+
+machine, panel = sys.argv[1], sys.argv[2]
+slides = sorted(f"{panel}/{f}" for f in os.listdir(panel) if f.endswith(".svs"))
+done = {f[:-5] for f in os.listdir("runs") if f.endswith(".json")}
+
+for slide in slides:
+    sid = os.path.basename(slide)[:-4]
+    for enc in ["gigapath", "virchow2", "conchv1_5"]:
+        for dt in C.DTYPE_LIST:
+            for b in C.BATCH_LIST:
+                for rep in range(1, C.N_REPEAT+1):
+                    tag = f"{sid}_{enc}_{dt}_b{b}_r{rep}_{machine}"
+                    if tag in done: continue
+                    print("RUN", tag, flush=True)
+                    subprocess.run([sys.executable, "extract_mps.py", slide, enc,
+                                    str(b), dt, "--tag", tag], check=False)
+                    time.sleep(C.COOLDOWN_SEC)
+print("SWEEP DONE")

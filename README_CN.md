@@ -14,3 +14,5 @@
 [结果与图](studies/wsi-mps-cuda/RESULTS_CN.md) · [方法](studies/wsi-mps-cuda/METHODS_AND_MEASUREMENT_CONTRACTS_EN.md) · [标量表](studies/wsi-mps-cuda/DATA_INDEX.md) · [文献](studies/wsi-mps-cuda/REFERENCES.md) · [版权](studies/wsi-mps-cuda/RIGHTS_AND_SCOPE.md) · [第三方说明](studies/wsi-mps-cuda/THIRD_PARTY_NOTICES.md)
 
 既有脚本及[旧v1.0](https://github.com/sunyitcm/gigapath-on-mac/releases/tag/v1.0)属于早期GigaPath-on-Mac探索；其合成输入／101-tile计量合同及NVIDIA估计数据与本次研究不同。旧日期只适用于当时公开内容。
+
+[代码与方法补充 v1.1.0](studies/wsi-mps-cuda/reproducibility/README_CN.md)：脚本、源码组件与摘录、必要配置、记录环境及使用/许可说明。

@@ -1,0 +1,57 @@
+{
+  "batch": 8,
+  "dtype": "fp32",
+  "warmup_batches": 10,
+  "cpu_threads": 4,
+  "cpu_interop_threads": 1,
+  "seed": 20260826,
+  "models": {
+    "gigapath": {
+      "tiles": 14344,
+      "batches": 1793,
+      "last_batch": 8,
+      "dim": 1536,
+      "checkpoint_files_per_successful_load": 1
+    },
+    "virchow2": {
+      "tiles": 18705,
+      "batches": 2339,
+      "last_batch": 1,
+      "dim": 2560,
+      "checkpoint_files_per_successful_load": 1
+    },
+    "titan_conchv1_5": {
+      "tiles": 3629,
+      "batches": 454,
+      "last_batch": 5,
+      "dim": 768,
+      "checkpoint_files_per_successful_load": 2
+    }
+  },
+  "model_revisions": {
+    "gigapath": "64f9e26c15019f2d4f6d9113c6822f88bb16b01b",
+    "virchow2": "3158645804b69e3f3bc4439d4116edddf0840a72",
+    "titan_conchv1_5": "dac6773d9961cfc75503440676ff157a2c6e8d2e"
+  },
+  "accepted_forward_sha256": {
+    "gigapath": "baf4cb09a321c4723c59c703193729118d8727df78a1e8520dadc395534f2ef0",
+    "virchow2": "baf4cb09a321c4723c59c703193729118d8727df78a1e8520dadc395534f2ef0",
+    "titan_conchv1_5": "07147046bff9df335baf77299c05bacd92d109d0a2e31d30988e167af2efb3bd"
+  },
+  "family": "C8 common FP32",
+  "warmup_definition": "10 discarded warm-up batches; first 80 retained coordinates, original order",
+  "replication": "three independent workers per platform/model",
+  "execution_enabled": false,
+  "output_contract": {
+    "features": "float32 [N,D]",
+    "coords": "int32 [N,2]; original level-0 row order"
+  },
+  "resource_events": [
+    "before traversal",
+    "batch 1",
+    "every 50 batches",
+    "last batch",
+    "after traversal"
+  ],
+  "resource_not_fixed_Hz": true
+}

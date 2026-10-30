@@ -1,0 +1,41 @@
+{
+  "model": "gigapath",
+  "batch": 8,
+  "warmup_batches": 10,
+  "seed": 20260826,
+  "cpu_threads": 4,
+  "cpu_interop_threads": 1,
+  "parameter_dtype": "float32",
+  "input_dtype": "float32",
+  "autocast_scope": "model and Original postprocess; sync after context, matching CUDA AMP",
+  "source_model": "Independent original checkpoint load per task; no half() then float() construction",
+  "features_storage_dtype": "float32",
+  "coords_storage_dtype": "int32",
+  "accepted_forward_sha256": "baf4cb09a321c4723c59c703193729118d8727df78a1e8520dadc395534f2ef0",
+  "slides": {
+    "TCGA-C8-A26W": {
+      "N": 14344,
+      "batches": 1793,
+      "last_batch": 8,
+      "dim": 1536,
+      "read_px": 521
+    },
+    "TCGA-23-1028": {
+      "N": 10244,
+      "batches": 1281,
+      "last_batch": 4,
+      "dim": 1536,
+      "read_px": 507
+    }
+  },
+  "family": "Mac GigaPath AMP tile supplement",
+  "platforms": [
+    "M5 Max",
+    "M3 Ultra"
+  ],
+  "repeats": 1,
+  "execution_enabled": false,
+  "warmup": "10 discarded warm-up batches",
+  "observation": "autocast state + representative module dtypes on existing warmups; hooks removed before formal output",
+  "same_reference": "A-F and E-F use the same corresponding Mac FP32 reference; A-E is supplemental; historical E batch/repeat not bound to H5"
+}

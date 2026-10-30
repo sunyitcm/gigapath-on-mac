@@ -1,0 +1,14 @@
+# Inputs and externally obtained models
+
+Use the existing [five-WSI source/full-name mapping](https://github.com/sunyitcm/gigapath-on-mac/blob/0fe0b1f408c51580b61be9b2ab826ceedffa175a/docs/WSI_INPUTS.md); no alternative alias system is introduced. TCGA/NCI GDC: [portal](https://portal.gdc.cancer.gov/), [data access](https://gdc.cancer.gov/access-data). Acknowledgment: the engineering study uses TCGA research-network material made accessible through NCI GDC. Obtain data under its applicable terms; no WSIs or clinical data are bundled.
+
+The feature interface is `features: float32[N,D]`, `coords: int32[N,2]` in original level-0 coordinate order. Do not infer equivalent content from names, shape, size or dtype. Existing equality receipts justify the specific GigaPath aliases in the [105-row source relationship table](https://github.com/sunyitcm/gigapath-on-mac/blob/0fe0b1f408c51580b61be9b2ab826ceedffa175a/studies/wsi-mps-cuda/data/Seven_Source_Input_Relationships_105.csv); aliases do not add executions. Exact producing batch/repeat is unknown for historical Mac final H5 files. Original Core5 CUDA FP32 and new C8 FP32 sessions remain distinct.
+
+[Model version pins](../configs/model_versions.json) were recovered from the accepted extraction package: GigaPath `prov-gigapath/prov-gigapath`, Virchow2 `paige-ai/Virchow2`, and CONCH v1.5 obtained through `MahmoodLab/TITAN`. These identify the retained tile-loader closure, not every historical sweep download. Do not replace TITAN/CONCH v1.5 with an older CONCH version or confuse Virchow with Virchow2.
+
+Before any separately authorized research execution, obtain approval/access and cache the exact upstream artifacts yourself, including model configs, tokenizers and licensed model code. Configure offline Hugging Face/transformers use, disable silent MPS CPU fallback, and verify accepted identities using the recorded small manifests. This package has no login/download helper and no embedded token. A trust_remote_code call is a dependency on the corresponding inspected, independently obtained code; it is not a permission bypass.
+
+The learned GigaPath route needs the retained LongNet integration and original dilation/padding/scattering around the supplied backend operation. The backend operation alone is not a complete GigaPath implementation. TITAN's native no_proj route requires gated upstream implementations; modified/restricted model implementations are not redistributed or substituted by a reimplementation from prose. These are material limits on executing the archived workers.
+
+
+The historical loader derivative supplies only GigaPath. Model pins and contracts for Virchow2/CONCH v1.5 do not imply that their loader is supplied. The included blocked-attention file is the CPU/MPS variant and rejects CUDA; complete historical backend integration remains external. See [license scope](LICENSE_SCOPE.md).

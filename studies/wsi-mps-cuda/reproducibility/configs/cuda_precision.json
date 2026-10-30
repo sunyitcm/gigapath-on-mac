@@ -1,0 +1,45 @@
+{
+  "family": "Core5 CUDA dual precision",
+  "batch": 8,
+  "warmup_batches": 10,
+  "cpu_threads": 4,
+  "cpu_interop_threads": 1,
+  "seed": 20260826,
+  "model_revisions": {
+    "gigapath": "64f9e26c15019f2d4f6d9113c6822f88bb16b01b",
+    "virchow2": "3158645804b69e3f3bc4439d4116edddf0840a72",
+    "titan_conchv1_5": "dac6773d9961cfc75503440676ff157a2c6e8d2e"
+  },
+  "models": {
+    "gigapath": {
+      "dim": 1536,
+      "checkpoint_files_per_successful_load": 1
+    },
+    "virchow2": {
+      "dim": 2560,
+      "checkpoint_files_per_successful_load": 1
+    },
+    "titan_conchv1_5": {
+      "dim": 768,
+      "checkpoint_files_per_successful_load": 2
+    }
+  },
+  "policies": {
+    "explicit_FP16": {
+      "model": "independently loaded then half",
+      "input": "float16",
+      "autocast": "CUDA float16; model AND Original postprocess"
+    },
+    "AMP_FP16": {
+      "model": "independent FP32 checkpoint; never half then float",
+      "input": "float32",
+      "autocast": "CUDA float16; model AND Original postprocess"
+    }
+  },
+  "synchronize": "after model/postprocess, before forward timer ends",
+  "features_storage_dtype": "float32",
+  "coords_storage_dtype": "int32",
+  "repeats": 1,
+  "execution_enabled": false,
+  "reference_limits": "C8 common-contract B8/r1/w10 CUDA FP32; other four earlier functional B8/r1/w0 CUDA FP32; cross-session"
+}
